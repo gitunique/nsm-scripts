@@ -1,6 +1,10 @@
 import sys
 import json
 
+#
+# sh /opt/elsa/contrib/securityonion/contrib/cli.sh 'BRO_DNS.return_code=NXDOMAIN -BRO_DNS.query_type=PTR start:"2015-09-08T00:00" limit:10000'
+#
+
 # read json from stdin
 
 values = json.load(sys.stdin) 
